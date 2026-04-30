@@ -1,0 +1,23 @@
+# LTspice
+*.raw
+*.log
+*.net
+
+# Altium
+*.SchDocPreview
+*.PcbDocPreview
+*.bak
+*.DsnWrk
+*.PrjPcbStructure
+*.zip
+
+
+# General
+*.tmp
+*.log
+*.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc

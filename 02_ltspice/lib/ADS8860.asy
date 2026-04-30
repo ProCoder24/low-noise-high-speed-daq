@@ -1,0 +1,42 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -192 -104 208 104
+WINDOW 0 1 -105 Bottom 2
+WINDOW 3 8 104 Top 2
+SYMATTR Value ADS8860
+SYMATTR SpiceLine Csh=55p Cdio=4p Cres=4p Rsh=96 tConv=710n Vref=5 fSampl=1MEG Iref=300u IrefL=250n N=16 Iref_on=1 IL=5n EG=0.005 EO=1m NLF=5.76 FLW=0.01 NVR=5.78 Cref=13.75p
+SYMATTR Prefix X
+SYMATTR ModelFile ads8860.lib
+PIN -192 -64 LEFT 8
+PINATTR PinName INP
+PINATTR SpiceOrder 1
+PIN -192 -32 LEFT 8
+PINATTR PinName INM
+PINATTR SpiceOrder 2
+PIN -192 0 LEFT 8
+PINATTR PinName Tconv
+PINATTR SpiceOrder 3
+PIN -192 32 LEFT 8
+PINATTR PinName ResetSH
+PINATTR SpiceOrder 4
+PIN -192 64 LEFT 8
+PINATTR PinName SampleRate
+PINATTR SpiceOrder 5
+PIN 208 -80 RIGHT 8
+PINATTR PinName Tacq
+PINATTR SpiceOrder 6
+PIN 208 -48 RIGHT 8
+PINATTR PinName Vref_err
+PINATTR SpiceOrder 7
+PIN 208 -16 RIGHT 8
+PINATTR PinName Vsamp
+PINATTR SpiceOrder 8
+PIN 208 16 RIGHT 8
+PINATTR PinName Vsettling_err
+PINATTR SpiceOrder 9
+PIN 208 48 RIGHT 8
+PINATTR PinName Vref_ideal
+PINATTR SpiceOrder 10
+PIN 208 80 RIGHT 8
+PINATTR PinName Vref
+PINATTR SpiceOrder 11
